@@ -1,0 +1,251 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#scroll-to-top{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+	z-index: 9999;
+	color: #ddd;
+	background-color: #888;
+	cursor: pointer;
+	border-radius: 50%;
+	display: none
+}
+/*Start Header*/
+.header{
+    background-color: #6900d1;
+}
+.navbar{
+    padding-top: 20px !important
+}
+.navbar-brand{
+    color: #FFF !important;
+    font-size: 30px;
+    font-weight: bold;
+    width: 125px;
+}
+.navbar-toggler{
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+.fa-bars{
+    color: #FFF;
+    font-size: 40px;
+}
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px
+}
+.nav-link{
+    color: #FFF !important;
+    font-size: 12px !important;
+    padding: 0 0 5px !important;
+    display: unset !important;
+}
+.active-home{
+    border-bottom: 2px solid #FFF;
+}
+.banner{
+    margin-top: 8%;
+    color: #FFF;
+}
+.banner h1{
+    font-size: 50px;
+    margin: 80px 0 50px;
+    font-weight: 600
+}
+.banner img{
+    max-height: 500px;
+} 
+.banner a{
+    padding:12px; 
+    width:150px;
+    display: inline-block;
+    background-color: #6900d1;
+    text-decoration: none !important;
+    color: #FFF;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.express{
+    background-color: #FFF !important;;
+    color: #000 !important;;
+    margin-right: 10px;
+}
+/*End Header*/
+/*Start services*/
+.services{
+    margin: 75px 0;
+}
+.services .title{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.services .sub-title{
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+.services .service{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.4s
+}
+.services .service img{
+    width: 60px;
+    margin: 65px 0 45px;
+    border: 3px solid #6900d1;
+    padding: 15px;
+    border-radius: 15px
+}
+.services .service h6{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.services .service p{
+    color: #808080;
+    font-size: 14px
+}
+.services .service .fa-arrow-right{
+    font-size: 22px !important;
+    margin: 30px 0 35px;
+    cursor: pointer
+}
+.services .service:hover,
+.active-service{
+    background-color: #6900d1;
+    color: #FFF !important;
+    border-radius: 5px;
+    box-shadow: 0 15px 15px 2px rgba(213,213,213,0.5);
+}
+.services .service:hover p,
+.active-service p{
+    color: #FFF !important;
+}
+.services .service:hover img,
+.active-service img{
+    background-color: #FFF !important;
+}
+/*End services*/
+/*start features*/
+.features,
+.explore{
+    margin: 120px 0
+}
+iframe{
+    max-width: 77%;
+}
+.features h2,
+.explore h2{
+    padding-top: 35px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.features p,
+.explore p{
+    margin: 25px 0 30px;
+    color: #808080;
+    font-size: 14px;
+    line-height: 18px;
+}
+.features a,
+.explore a{
+    width: 170px;
+    padding: 15px 10px;
+    display: block;
+    background-color: #6900d1;
+    text-decoration: none !important;
+    color: #FFF !important;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1xp rgba(204,204,204,0.5)
+}
+.explore a{
+    margin-bottom: 30px;
+}
+/*End features*/
+/*start review*/
+.review{
+    margin: 100px 0;
+}
+.carousel-item img{
+    width: 150px;
+    height: 157.19px;
+    border-radius: 50%;
+}
+.carousel-item{
+    height: 430px;
+    text-align: center;
+}
+.carousel-caption{
+    z-index: -1 !important;
+    box-shadow: 0 0 15px 1px rgba(166,163,223,0.5);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: #000 !important
+}
+.carousel-caption h5{
+    margin-top: 55px;
+    font-weight: bold;
+}
+.carousel-caption small{
+    margin: 10px 0 50px;
+    display: block;
+}
+.carousel-caption p{
+    color: #808080;
+    text-align: center;
+    padding: 0 50px;
+    font-size: 15px;
+}
+.carousel-indicators li{
+    background-color: #6900d1
+}
+/*end review*/
+/*start footer*/
+.footer{
+    background-color: #6900d1;
+    padding: 5px;
+    text-align: center
+}
+.footer h2{
+    color: #FFF;
+    margin: 70px 0;
+    font-weight: 600;
+}
+.footer input{
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+::placeholder{
+    color: #efefef;
+    font-size: 13px;
+}
+.footer button{
+    padding: 6px;
+    width: 180px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    color: #FFF;
+    border: 1px solid #FFF;
+    font-size: 20px;
+    background: transparent
+}
+/*end footer*/
